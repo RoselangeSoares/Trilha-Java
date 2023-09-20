@@ -34,5 +34,4 @@ public class SmartTv {
         ligada = false;
 
     }
-
 }
