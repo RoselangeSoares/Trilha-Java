@@ -1,3 +1,1 @@
-# Starting Java
-
-## Primeiros passos com Java
+# Primeiros passos com Java
