@@ -1,4 +1,3 @@
-# starting-java
-Primeiros passos com Java
+# Starting Java
 
-Teste para alteração de conteúdo
+## Primeiros passos com Java
