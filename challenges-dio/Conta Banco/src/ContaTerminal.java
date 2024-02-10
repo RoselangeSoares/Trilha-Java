@@ -2,8 +2,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal {
-    public static void main (String[] args){
-        Scanner scanner = new Scanner (System.in).useLocale(Locale.US);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         String saldo = "R$ " + 237 + "," + 48;
 
@@ -22,6 +22,8 @@ public class ContaTerminal {
         System.out.println("E por fim digite o número da conta! (depois ENTER para FINALIZAR) ");
         int num = scanner.nextInt();
 
-        System.out.println("Olá, " + nome  + " " + sobrenome + ", obrigado por criar uma conta em nosso banco, sua agência é: " + agencia + ", conta: " + num + " e seu saldo " + saldo + " já esta disponível para saque. ");
+        System.out.println(
+                "Olá, " + nome + " " + sobrenome + ", obrigado por criar uma conta em nosso banco, sua agência é: "
+                        + agencia + ", conta: " + num + " e seu saldo " + saldo + " já esta disponível para saque. ");
     }
 }
